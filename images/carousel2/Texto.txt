@@ -1,0 +1,38 @@
+Cômodos
+2 Dormitório, 1 Banheiro, 1 Garagem, Garagem Coberta, 1 Cozinha, 1 Sala de estar, 1 Área de serviço
+
+Condomínio
+Playground, Salão de festas, Solarium
+
+Cômodos
+5 Dormitórios, sendo 4 suítes
+2 Garagens
+Garagem Coberta
+1 Closet
+1 Escritório
+1 Copa
+1 Sala de TV
+1 Cozinha
+1 Lavabo
+1 Sala de jantar
+1 Sala de estar
+1 Área de serviço
+1 Dependência p/empregada
+
+Aquecimento a gás
+Ar Condicionado
+Churrasqueira
+Interfone
+Lareira
+Murado
+Piscina
+Portão Eletrônico
+
+3 Dormitórios, sendo 1 suíte
+1 Banheiro
+2 Garagens
+Garagem Coberta
+1 Cozinha
+1 Sala de jantar
+1 Sala de estar
+1 Área de serviço

@@ -1,0 +1,223 @@
+h5,
+p {
+    font-weight: 600;
+    color: #fff;
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.img-1 {
+    width: 40%;
+}
+
+.card {
+    width: 30%;
+    float: left;
+    border-radius: 12px;
+}
+
+#card1 {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+#card2 {
+    margin: 0 5%;
+}
+
+#card3 {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+
+.navbar-toggler:focus {
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-spacing: 2px 2px;
+    text-decoration: none;
+    color: rgba(228, 231, 233, 0.5);
+}
+
+.navbar-light .navbar-toggler {
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-spacing: 2px 2px;
+    text-decoration: none;
+    color: rgba(228, 231, 233, 0.5);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #bbbaba;
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #cecece;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.traco {
+    width: 25px !important;
+    background-color: coral !important;
+}
+
+textarea.form-control{
+    display: block;
+    width: 100% !important;
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav .nav-link:hover {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        color: #494848;
+    }
+
+    .card {
+        width: 50%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    #card1 {
+        width: 80%;
+        margin: 10px auto 30px;
+        float: none;
+    }
+
+    #card2 {
+        width: 80%;
+        margin: 10px auto 30px;
+        float: none;
+    }
+
+    #card3 {
+        width: 80%;
+        margin: 10px auto 30px;
+        float: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-light .navbar-toggler {
+        font-size: 21px;
+    }
+
+    #img-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img1 {
+        width: 85%;
+    }
+
+    .card {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    #card1,
+    #card3 {
+        width: 85%;
+        margin: 10px auto 30px;
+        float: none;
+    }
+
+    #card2 {
+        width: 85%;
+        margin: 10px auto 30px;
+        float: none;
+    }
+
+    #img-123 {
+        /*background-color: cornflowerblue;*/
+        display: block;
+        align-items: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-light .navbar-toggler {
+        font-size: 19px;
+    }
+
+    #card1,
+    #card3 {
+        width: 95%;
+        margin: 15px auto;
+        padding: 1px;
+
+    }
+
+    #card2 {
+        width: 95%;
+        margin: 15px auto;
+        padding: 1px;
+
+    }
+
+    .btn-menor{
+        padding: 0.25rem 0.5rem;
+        font-size: .875rem;
+        border-radius: 0.2rem;
+    }
+}
+
+
+
+@media (max-width: 475px) {
+    .navbar-light .navbar-toggler {
+        font-size: 17px;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .traco {
+        width: 15px !important;
+        background-color: coral !important;
+    }
+
+    #card1,
+    #card3 {
+        width: 100%;
+        margin: 12px 0px !important;
+        padding: 0px !important;
+
+    }
+
+    #card2 {
+        width: 100%;
+        margin: 12px 0px !important;
+        padding: 0px !important;
+
+    }
+    .promocao{
+        padding-left: 0px !important;
+        display: flex;
+        justify-content: start;
+        margin-left: 5px;
+    }
+
+}

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link href="./bootstrap513/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="./style/custom.css" rel="stylesheet">
+    <title>ALG Imobiliaria</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <img src="./images/logo_imob.JPG" id="logo" alt="ALG Imobiliaria">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#sobre">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#imoveis">Imóveis</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contato">Contato</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <section id="carousel" style="padding-top: 10px; padding-bottom: 3px;">
+        <div class="container p-0">
+            <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active traco"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" class="traco"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" class="traco"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="3" class="traco"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="4" class="traco"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item bg-secondary active">
+                        <img src="./images/carousel/img11.jpg" class="mx-auto d-block w-100" alt="imagem 01">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Apartamento amplo</h5>
+                            <p>Bem projetado, espaço aconchegante e boa localidade.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carousel/img22.jpg" class="mx-auto d-block w-100 " alt="imagem 02">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sala com cozinha americana</h5>
+                            <p>Tudo num so lugar com amplo espaço e designer modeno.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item justify-content-center">
+                        <img src="./images/carousel/img33.jpg" class="mx-auto d-block w-100" alt="imagem 03">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cozinha com moveis projetado</h5>
+                            <p>Cozinha com mais espaços, bem divida e aconchegante.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item justify-content-center">
+                        <img src="./images/carousel/img44.jpg" class="mx-auto d-block w-100" alt="imagem 04">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sala de star ampla</h5>
+                            <p>Janelas com otima visão e otimo designer.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item justify-content-center">
+                        <img src="./images/carousel/img55.jpg" class="mx-auto d-block w-100" alt="imagem 05">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sala de Som e TV</h5>
+                            <p>Com designer apropriado é um otimo local para curtir som e tv.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-secondary btn-primary btn-lg" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon  btn-secondary btn-lg" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="imoveis">
+        <div class="container">
+            <div class="row">
+                <h2 style="text-align: center;">Imóveis em Destaque</h2>
+                <div class="col bg-secondary bg-opacity-10 p-1" id="img-123">
+
+                    <div class="card" id="card1">
+                        <img src="./images/imovel1.jpg" alt="Imóvel" class="img-fluid rounded-3">
+                        <div class="card-body">
+
+                            <h5 class="card-title text-black"><i class="far fa-building"></i> Apto. Pronto para morar
+                            </h5>
+                            <p class="card-title text-black"><i class="fas fa-map-marker-alt"></i> <u>Dehon -
+                                    Tubarão/SC</u> </p>
+                            <p class="card-title text-black"><i class="fas fa-dollar-sign"></i> R$ 330.000,00 - Venda
+                            </p>
+                            <p class="card-title text-black"><i class="fas fa-bed"></i> 1 Dormitório</p>
+                            <p class="card-title text-black"><i class="fas fa-car"></i> 1 Garagem</p>
+                            <p class="card-title text-black"><i class="fas fa-ruler-combined"></i> 61,86 m² (Área
+                                Privada)</p>
+
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver imóvel</a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="card2">
+                        <img src="./images/imovel2.jpg" alt="Imóvel" class="img-fluid rounded-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-black"><i class="far fa-building"></i> Casa em Condomínio</h5>
+                            <p class="card-title text-black"><i class="fas fa-map-marker-alt"></i> <u>Vila Esperança -
+                                    Tubarão/SC</u> </p>
+                            <p class="card-title text-black"><i class="fas fa-dollar-sign"></i> R$1.700.000,00 - Venda
+                            </p>
+                            <p class="card-title text-black"><i class="fas fa-bed"></i> 5 Dormitórios(4 suites)</p>
+                            <p class="card-title text-black"><i class="fas fa-car"></i> 2 Garagens</p>
+                            <p class="card-title text-black"><i class="fas fa-ruler-combined"></i> 185,00 m² (Área
+                                contruida)</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">ver imóvel</a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="card3">
+                        <img src="./images/imovel3.jpg" alt="Imóvel" class="img-fluid rounded-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-black"><i class="far fa-building"></i> Casa de Alvenaria</h5>
+                            <p class="card-title text-black"><i class="fas fa-map-marker-alt"></i> <u>Vila Moema -
+                                    Tubarão/SC</u> </p>
+                            <p class="card-title text-black"><i class="fas fa-dollar-sign"></i> R$1.390.000,00 - Venda
+                            </p>
+                            <p class="card-title text-black"><i class="fas fa-bed"></i> 3 Dormitórios(1 suite)</p>
+                            <p class="card-title text-black"><i class="fas fa-car"></i> 2 Garagens</p>
+                            <p class="card-title text-black"><i class="fas fa-ruler-combined"></i> 125,00 m² (Área
+                                Construida)</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">ver imóvel</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato" class="pb-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                    <h2>Cadastro</h2>
+                    <p style="color: black;">Ficou interessado? Preencha os campos do formulário para receber uma
+                        cotação.</p>
+
+                    <form class="form">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="nome" required
+                                        placeholder="digite seu nome">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="email" required
+                                        placeholder="digite seu email">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="endereco" class="col-form-label col-form-label-sm">Endereço completo</label>
+                                <input type="text" id="endereco" class="form-control" required
+                                    placeholder="Endereço completo">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="cidade" class="col-form-label col-form-label-sm">Cidade</label>
+                                <input type="text" name="cidade" id="cidade" required class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="estado" class="col-form-label col-form-label-sm">Estado</label>
+                                <select name="estado" id="estado" class="form-control" required>
+                                    <option value="">Selecione um estado</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="cep" class="col-form-label col-form-label-sm">CEP</label>
+                                <input type="text" name="cep" id="cep" class="form-control" required>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group">
+                                    <label for="info" class="col-form-label col-form-label-sm">Informações</label>
+                                    <textarea class="form-control" name="informacoes" id="info" rows="5"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-check promocao">
+                                    <input type="checkbox" name="promocionais" id="promocionais"
+                                        style="margin-top: 9px;">
+                                    <label for="promocionais" class="form-check-label col-form-label-sm"> &nbsp; Aceito
+                                        receber
+                                        mensagens promocionais</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-success btn-menor">Realizar cadastro</button>
+
+                    </form>
+                    <p style="color: #5f5d5d;">
+                        <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-4">Cadastre-se</a>
+                        para receber novidades.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobre" class="pb-4 pt-2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <h2 style="color: #5f5d5d;">ALG Imobiliaria</h2>
+                    <h4 style="color: #5f5d5d;">Corretora de Imóveis</h4>
+                    <h5 style="color: #5f5d5d;">CRECI/SC 37862</h5>
+                    <p style="color: #5f5d5d;">Corretora de imóveis há mais de 20 anos, vem conquistando o mercado
+                        imobiliário
+                        por sua conduta, compromisso e transparência. Muito querida e requisitada por seus clientes,
+                        coleciona
+                        parceiros como imobiliárias, corretoras e locadoras não só pela região, mas também em belas
+                        praias
+                        pelo litoral sul catarinense.</p>
+                    <p style="color: #5f5d5d;">
+                        Determinação em buscar a satisfação de seus clientes, unindo a necessidade da venda com a
+                        realização
+                        da compra. Realização essa que a motiva a fazer sempre o melhor pelo seu cliente, concretizando
+                        sonhos e
+                        negócios de sucesso.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container bg-light">
+            <h5 style="color: #a3a4a5;">Endereço:</h5>
+            <span style="color: #a3a4a5;">ALG Imobiliaria</span>
+            <span style="color: #a3a4a5;">Rua Santa Terezinha, 404 - Vila Moema - Tabarão/SC, 88705-150<br></span>
+            <span style="color: #a3a4a5;"><i class="fab fa-whatsapp" aria-hidden="true"></i> (48) 99988-7766
+                &nbsp;&nbsp; <i class="far fa-envelope"></i> contato@algimobiliaria.com.br</span>
+            <p></p>
+        </div>
+    </footer>
+
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #FFF;">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color: lightslategrey;">Apto. Pronto para morar</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselc1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/carousel2/morar1.jpg" class="d-block w-100" alt="Pronto para morar">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel2/morar2.jpg" class="d-block w-100" alt="Pronto para morar">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel2/morar3.jpg" class="d-block w-100" alt="Pronto para morar">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel2/morar4.jpg" class="d-block w-100" alt="Pronto para morar">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselc1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselc1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <span
+                        style="color: #a3a4a5; padding-bottom: 1px; margin: 1px; font-size: 0.95rem; font-weight: bold;">Cômodos:</span>
+                    <span style="color: #a3a4a5; font-size: 0.85rem;">
+                        2 Dormitórios, 1 Banheiro, 1 Garagem, Garagem Coberta, 1 Cozinha, 1 Sala de estar, 1 Área de
+                        serviço <br>
+                    </span>
+                    <span
+                        style="color: #a3a4a5; padding-bottom: 1px; margin: 1px; font-size: 0.95rem; font-weight: bold;">Condomínio:</span>
+                    <span style="color: #a3a4a5; font-size: 0.85rem;">Playground, Salão de festas, Solarium</span>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-menor" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #FFF;">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color: lightslategrey;">Casa em Condomínio</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselc2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/carousel3/casacond1.jpg" class="d-block w-100"
+                                    alt="Casa em Condomínio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel3/casacond2.jpg" class="d-block w-100"
+                                    alt="Casa em Condomínio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel3/casacond3.jpg" class="d-block w-100"
+                                    alt="Casa em Condomínio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel3/casacond4.jpg" class="d-block w-100"
+                                    alt="Casa em Condomínio">
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselc2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselc2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <span
+                        style="color: #a3a4a5; padding-bottom: 1px; margin: 1px; font-size: 0.95rem; font-weight: bold;">Cômodos:</span>
+                    <span style="color: #a3a4a5; font-size: 0.85rem;">
+                        5 Dormitórios, sendo 4 suítes, 2 Garagens, Garagem Coberta, 1 Closet, 1 Escritório, 1 Copa, 1
+                        Sala de TV, 1 Cozinha,
+                        1 Lavabo, 1 Sala de jantar, 1 Sala de estar, 1 Área de serviço, 1 Dependência p/empregada<br>
+                    </span>
+                    <span
+                        style="color: #a3a4a5; padding-bottom: 1px; margin: 1px; font-size: 0.95rem; font-weight: bold;">Características:</span>
+                    <span style="color: #a3a4a5; font-size: 0.85rem;">Aquecimento a gás, Ar Condicionado, Churrasqueira,
+                        Interfone,
+                        Lareira, Murado, Piscina, Portão Eletrônico</span>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-menor" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: ##FBEEE6;">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color: lightslategrey;">Casa de Alvenaria</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselc3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/carousel4/casaalv1.jpg" class="d-block w-100"
+                                    alt="Casa de Alvenaria">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel4/casaalv2.jpg" class="d-block w-100"
+                                    alt="Casa de Alvenaria">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel4/casaalv3.jpg" class="d-block w-100"
+                                    alt="Casa de Alvenaria">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel4/casaalv4.jpg" class="d-block w-100"
+                                    alt="Casa de Alvenaria">
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselc3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselc3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                        </div>
+                    </div>
+                    <span
+                        style="color: #a3a4a5; padding-bottom: 1px; margin: 1px; font-size: 0.95rem; font-weight: bold;">Cômodos:</span>
+                    <span style="color: #a3a4a5; font-size: 0.85rem;">
+                        3 Dormitórios, sendo 1 suíte, 1 Banheiro, 2 Garagens, Garagem Coberta, 1 Cozinha, 1 Sala de jantar, 1 Sala de estar,
+                        1 Área de serviço<br>
+                    </span>
+                    <span
+                        style="color: #a3a4a5; padding-bottom: 1px; margin: 1px; font-size: 0.95rem; font-weight: bold;">Características:</span>
+                    <span style="color: #a3a4a5; font-size: 0.85rem;">Churrasqueira, Interfone, Portão Elétrico</span>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-menor" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inscrever-me na lista</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Preencha os campos para receber novidades e promoçoes</h6>
+                    <form class="form-inline">
+                        <input type="text" class="form-control" name="m_nome" placeholder="digite o nome" required>
+                        <input type="text" class="form-control" name="m_mail" placeholder="digite o e-mail" required>
+                        <button type="submit" class="btn btn-success">Receber novidades</button>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-menor" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./bootstrap513/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var myCarousel = document.getElementById('mycarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+            interval: 8000,
+            wrap: true
+        })
+
+        var carouselC1 = document.getElementById('carouselc1')
+        var carousel = new bootstrap.Carousel(carouselC1, {
+            pause: false,
+            interval: 5000,
+            wrap: true
+        })
+
+        var carouselC2 = document.getElementById('carouselc2')
+        var carousel = new bootstrap.Carousel(carouselC2, {
+            pause: false,
+            interval: 5000,
+            wrap: true
+        })
+
+        var carouselC3 = document.getElementById('carouselc3')
+        var carousel = new bootstrap.Carousel(carouselC3, {
+            pause: false,
+            interval: 5000,
+            wrap: true
+
+        })
+    </script>
+</body>
+
+</html>
